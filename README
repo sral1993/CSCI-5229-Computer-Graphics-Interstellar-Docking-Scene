@@ -1,0 +1,89 @@
+Computer Graphics Project:    Refererred from CSCI 5229 examples by professor william A Schreuder :    Adapted by Srivishnu Alvakonda
+ 
+                                                                          Demonstrates mimic of Interstellar docking scene 
+Key bindings:
+ *  i/I        Ranger1 X increase
+ *  o/O        Ranger1 X decrease
+ *  j/J        Ranger1 Y increase
+ *  k/K        Ranger1 Y decrease
+ *  v/V        Ranger1 z increase
+ *  b/B        Ranger1 z decrease 
+ *   1         Ranger2 X increase
+ *   2         Ranger2 X decrease
+ *   3         Ranger2 Y increase
+ *   4         Ranger2 Y decrease
+ *   5         Ranger2 z increase
+ *   6         Ranger2 z decrease 
+ *  q/Q        Initial viewing point
+ *  w/W        Docking viewing point
+ *  z/Z        Ranger1(Dr.Cooper) Auto docking
+ *  u/U        Ranger2(Dr.Mann) Auto docking
+ *  r/R        Reset/Restart entire process with automatatic functionality         
+ *  l          Toggles lighting
+ *  a/A        Decrease/increase ambient light
+ *  d/D        Decrease/increase diffuse light
+ *  s/S        Decrease/increase specular light
+ *  e/E        Decrease/increase emitted light
+ *  n/N        Decrease/increase shininess
+ *  F1         Toggle smooth/flat shading
+ *  F2         Toggle local viewer mode
+ *  F3         Toggle light distance (1/5)
+ *  F8         Change ball increment
+ *  F9         Invert bottom normal
+ *  m          Toggles light movement
+ *  []         Lower/rise light
+ *  p          Toggles ortogonal/perspective projection
+ *  +/-        Change field of view of perspective
+ *  x          Toggle axes
+ *  arrows     Change view angle
+ *  PgDn/PgUp  Zoom in and out
+ *  0          Reset view angle
+ *  ESC        Exit
+
+Please do:       Step 1. make           Step 2.  ./final      Step 3. Press 'r'/'R'(to view the entire automated process of docking which takes around 43 seconds)
+
+In this project, I have tried to mimic the interstellar docking scene. The key steps according to the movie is as follows:
+1. Dr.Mann a  bad scientist attempts to make an un-authorized docking. After he reaches the dock position, he explodes and his ranger destroys and also damages few parts of endurance.
+2. Because of the damage and inertia of motion, the endurance slips out of orbit by translation and rotation.
+3. Dr.Cooper a good scientist who is in another ranger tries to dock the endurance(because endurance is required for future) by translation into the docking position and rotates to match the endurance RPM.
+4. Once the RPM is matched the endurance was pulled out of the orbit by Dr.Cooper Ranger.
+
+Project Objectives(as mentioned in the project proposal) and Results :
+
+1. Creation of Endurance with 3D objects                                  : Successfully created (improved complexity after project review)
+2. Creation of Ranger with 3D objects                                     : Successfully created
+3. Applying Lighting concepts to the scene                                : Successfully done (implemented after project review)
+4. Apply textures for Space and Earth                                     : Successfully done
+5. Apply textures for Endurance and Ranger                                : Successfully done
+6. Controlling different views using up/down arrows                       : Yes
+7. Controlling RPM of both endurance and Ranger using keys                : RPM's are controlled by the program.
+8. Controlling the movement of Ranger towards endurance using keys        : Successfully done
+
+Stretch goals:
+
+1. Endurance slips out of orbit by translation and rotation               : Successfully done (implemented after project review)
+2. Dr.Cooper's Ranger tries to dock by translation and rotation           : Successfully done (implemented after project review)
+3. Manual docking of Dr.Cooper's Ranger with endurance                    : Successfully done (implemented after project review)
+
+Super Stretch goals:
+
+1. Creation of Dr.Mann ranger and he tries to dock and fails              : Successfully done (implemented after project review)
+2. Synchronization of all of the events in a perfect order                : Successfully done (implemented after project review)
+3. Reset/Restart the entire docking scene with automation                 : Successfully done (implemented after project review)
+
+Grade expected : A-
+Reasons: 
+1. I have completed the project with full functionality as in the movie. Please compare the functionality of docking with the movie docking scene (https://www.youtube.com/watch?v=c4tPQYNpW9k)
+2. I am pursuing MS in Electrical Engineering. I took this course to understand basics of Computer Graphics. I always get motivated with the interstellar movie and I took this course to try to mimic the     docking scene as course project. I am happy that I gave my best effort with the skills and time I had.
+3. After taking this course, I understood that I had trouble with visualizing 3D objects in space(which is improving). Hence, I have less scope to implement very complex objects.
+4. As I am graduating this semester, I am very much occupied with job interviews(still to get one) and preparation. I could not invest more time on project as I liked.
+
+Please provide feedback regarding the same. 
+
+
+
+
+
+
+
+
